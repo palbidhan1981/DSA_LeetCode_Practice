@@ -17,11 +17,12 @@ public class RecursionMain {
 
        /* int[] recursionReverseArray=RecursionReverseArray.RecursionReverseArray(recursionArray,
                         0,recursionArray.length-1);*/
-        int[] recursionReverseArray=RecursionReverseArray.RecursionReverseArraySingleParametere(recursionArray,
+        /*int[] recursionReverseArray=RecursionReverseArray.RecursionReverseArraySingleParametere(recursionArray,
                 0);
         for(int i:recursionReverseArray) {
             System.out.print(i+",");
-        }
+        }*/
+        System.out.println("Is it Palindrome ? "+ (RecussionPalindrome.RecursionPalindrome("madsm",0,"madsm".length()-1)?"Yes":"No"));
     }
 
     private static void print1toNBackTracking(int count) {
